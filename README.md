@@ -43,18 +43,26 @@ esc, затем  :wq
 cd ../
 
 **13) переместить любые 2 файла, которые вы создали, в любую другую папку.**
+
 mv /Users/mary/group_22/papka1/1_txt.file.txt /Users/mary/group_22/
+
 mv /Users/mary/group_22/papka1/2_txt.file.txt /Users/mary/group_22/
+
 Для одновременного перемещения файлов используем фигурные скобки {} :
+
 mv /Users/mary/group_22/papka1/{2_txt.file.txt,1_txt.file.txt}  /Users/mary/group_22/
  
 **14) скопировать любые 2 файла, которые вы создали, в любую другую папку.**
 cp 1_txt.file.txt /Users/mary/group_22/papka2/
+
 cp 2_txt.file.txt /Users/mary/group_22/papka2/
+
 Для одновременного копирования нескольких файлов используем фигурные скобки {} :
+
 cp {1_txt.file.txt, 2_txt.file.txt} /Users/mary/group_22/papka2/
 
-**15) Найти файл по имени**
+**15) Найти файл по имени:**
+
 sudo find ./ -type f -name "*1_txt.file.txt"
 
 **16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает. :**
