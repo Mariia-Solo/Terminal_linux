@@ -1,6 +1,6 @@
 # Terminal_linux
 
-1)Linux terminal (GitBash) commands
+**1)Linux terminal (GitBash) commands**
 
 **2) Создать папку:** mkdir group_22
 
